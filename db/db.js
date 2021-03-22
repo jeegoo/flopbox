@@ -1,20 +1,4 @@
-/*
-const mysqlModel = require('mysql-model');
 
-
-const MyAppModel = mysqlModel.createConnection({
-    host     : "freedb.tech",
-    user     : "freedbtech_jeegoo",
-    password : "juju",
-    database : "freedbtech_flopbox"
-});
-
-
-
-module.exports = MyAppModel;
-
-//dbConnection.on('connected',()=>console.log("conneted to DB clients"));
-*/
 const Sequelize = require('sequelize');
 
 
